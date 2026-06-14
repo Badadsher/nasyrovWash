@@ -1,0 +1,8 @@
+{
+  "name": "NasyrovWash",
+  "description": "Премиальный сервис профессионального клининга в Москве. Честные цены, онлайн-калькулятор стоимости и безупречная чистота.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -27,7 +27,7 @@ export default function Navbar({ onNavClick, activeSection }: NavbarProps) {
             N
           </div>
           <span className="font-display text-xl font-extrabold tracking-tighter text-slate-800">
-            Nasyrov<span className="text-blue-600 font-black">Wash</span>
+            Проф<span className="text-blue-600 font-black">Клининг</span>
           </span>
         </div>
 

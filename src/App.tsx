@@ -75,7 +75,7 @@ export default function App() {
               Почему москвичи выбирают нас?
             </span>
             <h2 className="font-display text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">
-              Золотые правила чистоты NasyrovWash
+              Золотые правила чистоты ПрофКлининг
             </h2>
             <p className="mt-4 text-base sm:text-lg text-slate-600 font-sans">
               Клининг в Москве — это не просто уборка пыли. Это бережная забота
@@ -110,7 +110,7 @@ export default function App() {
                 Проверенные мастера СБ
               </h3>
               <p className="font-sans text-sm text-slate-600 leading-relaxed">
-                Каждый клинер NasyrovWash проходит 3-этапное интервью и проверку
+                Каждый клинер ПрофКлининг проходит 3-этапное интервью и проверку
                 личности. Вы защищены юридическим договором до полной сдачи
                 качества.
               </p>
@@ -293,7 +293,7 @@ export default function App() {
               <div className="flex items-center space-x-2 text-blue-400">
                 <Sparkles className="h-6 w-6 stroke-[2.5]" />
                 <span className="font-display text-xl font-black tracking-tight text-white">
-                  Nasyrov<span className="text-blue-400">Wash</span>
+                  Проф<span className="text-blue-400">Клининг</span>
                 </span>
               </div>
               <p className="font-sans text-xs sm:text-sm text-slate-400 max-w-sm leading-relaxed">
@@ -302,7 +302,7 @@ export default function App() {
                 строгий отбор мастеров.
               </p>
               <p className="text-xs text-slate-500 font-sans">
-                © 2026 NasyrovWash Cleaning. Все права защищены. <br />
+                © 2026 ПрофКлининг. Все права защищены. <br />
                 Разработка выполнена в Москве на высшем уровне.
               </p>
             </div>
@@ -351,7 +351,7 @@ export default function App() {
             {/* Contact details Col */}
             <div className="lg:col-span-4 space-y-4 text-left font-sans text-xs sm:text-sm text-slate-300">
               <h4 className="font-display text-xs font-extrabold uppercase tracking-widest text-slate-400">
-                Контакты NasyrovWash
+                Контакты ПрофКлининг
               </h4>
 
               <div className="space-y-3">
@@ -367,10 +367,10 @@ export default function App() {
                 <div className="flex items-center">
                   <Mail className="h-5 w-5 text-blue-400 mr-2.5 flex-shrink-0" />
                   <a
-                    href="mailto:info@nasyrovwash.ru"
+                    href="mailto:dominserv123@mail.ru"
                     className="hover:text-blue-400"
                   >
-                    info@nasyrovwash.ru
+                    dominserv123@mail.ru
                   </a>
                 </div>
               </div>

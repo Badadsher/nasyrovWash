@@ -1,5 +1,6 @@
 import React from 'react';
 import { Sparkles, Calendar, ChevronRight, ShieldCheck, Heart } from 'lucide-react';
+import scandiHeroImg from '../assets/images/scandi_room_hero_1780675164177.png';
 
 interface HeroProps {
   onActionClick: (sectionId: string) => void;
@@ -88,7 +89,7 @@ export default function Hero({ onActionClick }: HeroProps) {
               
               <div className="relative overflow-hidden rounded-3xl border border-white/40 shadow-2xl">
                 <img
-                  src="/src/assets/images/scandi_room_hero_1780675164177.png"
+                  src={scandiHeroImg}
                   alt="Премиальная уборка квартир NasyrovWash"
                   className="aspect-4/3 w-full object-cover transition-transform duration-500 hover:scale-103"
                   referrerPolicy="no-referrer"

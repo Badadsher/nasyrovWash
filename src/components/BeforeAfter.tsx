@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Sparkles, ArrowLeftRight } from 'lucide-react';
+import scandiHeroImg from '../assets/images/scandi_room_hero_1780675164177.png';
 
 export default function BeforeAfter() {
   const [sliderPosition, setSliderPosition] = useState(50); // percentage (0 to 100)
@@ -66,7 +67,7 @@ export default function BeforeAfter() {
           {/* After Image (Clean) */}
           <div className="absolute inset-0 w-full h-full">
             <img 
-              src="/src/assets/images/scandi_room_hero_1780675164177.png" 
+              src={scandiHeroImg} 
               alt="После уборки NasyrovWash" 
               className="w-full h-full object-cover pointer-events-none"
               referrerPolicy="no-referrer"
@@ -85,7 +86,7 @@ export default function BeforeAfter() {
             {/* We duplicate the same image but styled with CSS dirty filter (brightness-75, saturate-75, sepia-15, dust-overlay) */}
             <div className="absolute inset-0 w-[400px] sm:w-[896px] h-full" style={{ width: containerRef.current?.getBoundingClientRect().width }}>
               <img 
-                src="/src/assets/images/scandi_room_hero_1780675164177.png" 
+                src={scandiHeroImg} 
                 alt="До уборки NasyrovWash" 
                 className="w-full h-full object-cover pointer-events-none filter sepia-[20%] brightness-[70%] contrast-[95%] saturate-[80%]"
                 referrerPolicy="no-referrer"

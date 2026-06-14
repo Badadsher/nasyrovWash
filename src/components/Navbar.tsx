@@ -24,7 +24,7 @@ export default function Navbar({ onNavClick, activeSection }: NavbarProps) {
           id="nav_logo"
         >
           <div className="w-10 h-10 bg-blue-600 rounded-xl flex items-center justify-center text-white font-black text-xl shadow-lg shadow-blue-300/50">
-            N
+            П
           </div>
           <span className="font-display text-xl font-extrabold tracking-tighter text-slate-800">
             Проф<span className="text-blue-600 font-black">Клининг</span>
